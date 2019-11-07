@@ -1,0 +1,16 @@
+let test = new Proxy(test, {
+has: function(target, key) {return true;},
+get: function(target, key, receiver) {Reflect.get(...arguments);},
+deletekey: function(target, key) {delete target[key];},
+set: function(target, key, value, receiver) {target[key]=value;},
+apply: function(target, thisArg, argumentsList) {return argumentsList[0]*argumentsList[1];},
+construct: function(target, argumentsList, newTarget) {return {value: argumentsList[0]};}
+}
+
+/*Tests*/
+test.val1="JiAn"; //set val1 to Jian
+console.log('val1' in test); //has true
+console.log(test.val); // get "JiAn"
+console.log(test(1,2)); // apply 2
+delete test.val1; //deletekey
+console.log(test(2)); //2

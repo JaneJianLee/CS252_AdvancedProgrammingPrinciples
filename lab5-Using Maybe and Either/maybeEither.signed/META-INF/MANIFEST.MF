@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Created-By: 1.8.0_222 (Private Build)
+
+Name: maybeEither.hs
+SHA-256-Digest: u6bfihnxz+t+naNjgAMc1crO+2bkz+glzTI4ExV+mxQ=
+
+Name: codecheck.log
+SHA-256-Digest: MWkjwoJKr4PEtfqsiHs/f8pnGRL40PW5erX73OmdX6I=
+
+Name: report.html
+SHA-256-Digest: ZFz9XUObfc+bLOJTqhyX+BrbW4AA/YSq00Pbk+tWNL8=
+
+Name: codecheck.out
+SHA-256-Digest: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+
