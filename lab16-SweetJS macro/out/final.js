@@ -1,0 +1,13 @@
+var a_8 = 1;
+var b_9 = 2;
+var c_10 = 3;
+var d_11 = 4;
+var e_12 = 5;
+var temp_13;
+temp_13 = a_8;
+a_8 = b_9;
+b_9 = c_10;
+c_10 = d_11;
+d_11 = e_12;
+e_12 = temp_13;
+console.log("a: " + a_8 + "b: " + b_9 + "c: " + c_10 + "d: " + d_11 + "e: " + e_12);
